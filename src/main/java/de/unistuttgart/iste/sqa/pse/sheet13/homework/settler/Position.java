@@ -5,11 +5,11 @@ package de.unistuttgart.iste.sqa.pse.sheet13.homework.settler;
  *
  *  The Position is defined by longitude and latitude.
  */
-public class Position {
+public final class Position {
 	private final long longitude;
 	private final long latitude;
 
-	public Position(long longitude, long latitude) {
+	public Position(final long longitude, final long latitude) {
 		super();
 		this.longitude = longitude;
 		this.latitude = latitude;

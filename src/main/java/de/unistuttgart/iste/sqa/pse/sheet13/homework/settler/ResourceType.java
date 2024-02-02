@@ -3,10 +3,10 @@ package de.unistuttgart.iste.sqa.pse.sheet13.homework.settler;
 /**
  * Type of a Resource
  */
-public class ResourceType {
+public final class ResourceType {
 	private final String label;
 
-	public ResourceType(String label) {
+	public ResourceType(final String label) {
 		super();
 		this.label = label;
 	}
