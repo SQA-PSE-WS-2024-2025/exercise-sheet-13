@@ -31,7 +31,7 @@ public final class TestRun {
 
 	/**
 	 * Execute the TestRun.
-	 * 
+	 *
 	 * Ensures that the result of the test run is updated.
 	 */
 	public void executeTest() {

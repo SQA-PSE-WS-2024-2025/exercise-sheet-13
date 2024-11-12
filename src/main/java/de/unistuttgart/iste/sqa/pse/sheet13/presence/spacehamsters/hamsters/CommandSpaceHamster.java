@@ -11,9 +11,9 @@ import de.unistuttgart.iste.sqa.pse.sheet13.presence.spacehamsters.SpecialAbilit
 public class CommandSpaceHamster extends OrdinarySpaceHamster {
 	/**
 	 * Creates a new {@link CommandSpaceHamster}.
-	 * 
+	 *
 	 * The new commander has the given ability and is part of the given ship.
-	 * 
+	 *
 	 * Ensures that the newly created hamster is part of the crew of the {@link SpaceShip} {@code ship}.
 	 *
 	 * @param ship the ship the space hamster is on. Must not be {@code null}.

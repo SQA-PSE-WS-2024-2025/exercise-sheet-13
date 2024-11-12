@@ -14,7 +14,7 @@ public class Game {
 	/*
 	 * Classinvariant: {@code scoreHome} and {@code scoreVisiting} must not be {@code null}.
 	 */
-	
+
 	private final Team homeTeam;
 	private final Team visitingTeam;
 	private int scoreHome = SCORE_NOT_STORED;
@@ -40,8 +40,8 @@ public class Game {
 
 	/**
 	 * Stores the result of this game if not set before.
-	 * 
-	 * Requires that the scores are not yet set. 
+	 *
+	 * Requires that the scores are not yet set.
 	 * Ensures that the scores are set.
 	 *
 	 * @param scoreHome	score of the home team

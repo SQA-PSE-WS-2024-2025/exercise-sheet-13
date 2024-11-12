@@ -15,7 +15,7 @@ public interface SpaceHamster {
 
 	/**
 	 * Encourages this hamster.
-	 * 
+	 *
 	 * Ensures that this hamster is encouraged.
 	 */
 	public void encourage();

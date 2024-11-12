@@ -1,9 +1,8 @@
 package de.unistuttgart.iste.sqa.pse.sheet13.presence.spacehamsters;
 
+import de.unistuttgart.iste.sqa.pse.sheet13.presence.spacehamsters.hamsters.SpaceHamster;
 import java.util.HashSet;
 import java.util.Set;
-
-import de.unistuttgart.iste.sqa.pse.sheet13.presence.spacehamsters.hamsters.SpaceHamster;
 
 /**
  * A spaceship with a crew of space hamsters.
@@ -13,7 +12,7 @@ public class SpaceShip {
 	/*
 	 * Classinvariant: The crew must never be null.
 	 */
-	
+
 	private final Set<SpaceHamster> crew;
 
 	/**
@@ -27,7 +26,7 @@ public class SpaceShip {
 
 	/**
 	 * Add a new member to the crew.
-	 * 
+	 *
 	 * Ensures, that the new member is part of the crew.
 	 *
 	 * @param hamster member to be added to the crew. Must not be {@code null}.

@@ -10,11 +10,11 @@ import java.util.Map;
  *
  */
 public class TTServer {
-	
+
 	/*
 	 * Classinvariants: {@code instance} and {@code tournaments} must no be {@code null}.
 	 */
-	
+
 	private static final TTServer instance = new TTServer();
 
 	private final Map<String, Tournament> tournaments = new HashMap<String, Tournament>();
@@ -26,7 +26,7 @@ public class TTServer {
 
 	/**
 	 * Creates and registers a new tournament with the given name.
-	 * 
+	 *
 	 * Ensures that the new tournament is included in the list of all tournaments.
 	 *
 	 * @param name name of the tournament, must not be null or empty

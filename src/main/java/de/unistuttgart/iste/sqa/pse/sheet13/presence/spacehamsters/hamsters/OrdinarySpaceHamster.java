@@ -14,9 +14,9 @@ public class OrdinarySpaceHamster implements SpaceHamster {
 
 	/**
 	 * Creates a new ordinary space hamster.
-	 * 
+	 *
 	 * The new hamster has the given ability and is part of the given ship.
-	 * 
+	 *
 	 * Ensures that the new hamster is part of the crew of the {@link SpaceShip} {@code ship}.
 	 *
 	 * @param ship the ship the space hamster is on. Must not be {@code null}.

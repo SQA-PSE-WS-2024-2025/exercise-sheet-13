@@ -33,9 +33,9 @@ public class Tournament {
 	/**
 	 * Register a new team with the given name in this tournament if a team with this name has not been registered before.
 	 *
-	 * Ensure that the newly created teams is added to the list of all teams. 
+	 * Ensure that the newly created teams is added to the list of all teams.
 	 *
-	 * @param name name of the team to be registered, must not be null or empty, 
+	 * @param name name of the team to be registered, must not be null or empty,
 	 * @return the newly registered team
 	 * @throws IllegalArgumentException if name is null or empty or a team with this name has already been registered
 	 */
@@ -56,7 +56,7 @@ public class Tournament {
 	 *
 	 * Note that multiple games between the same team are possible.
 	 *
-	 * TODO: add preconditions 
+	 * TODO: add preconditions
 	 *
 	 * @param homeTeam the home team
 	 * @param vistingTeam the visiting team
