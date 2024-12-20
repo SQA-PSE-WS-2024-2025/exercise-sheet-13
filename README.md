@@ -41,18 +41,11 @@ To install Java, set up your IDE and clone the repository into your workspace, p
 ### Run the project via command line with Maven
 
 ```sh
-mvn clean compile exec:java@$MAIN_CLASS
+mvn clean compile exec:java@MemoryHamsterGameApp
 ```
-
-for the Tests, it is:
 
 ```sh
-mvn clean test -Dtest=TEST_CLASS
+mvn clean compile exec:java@Main
 ```
- 
-As Example, the HamsterClubTest 
 
-```sh
-  mvn clean test -Dtest=HamsterClubTest
-```
  

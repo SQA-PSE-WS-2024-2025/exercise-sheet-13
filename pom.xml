@@ -52,9 +52,15 @@
 				<version>3.1.1</version>
 				<executions>
 					<execution>
-						<id>RegistrationGUI</id>
+						<id>Main</id>
 						<configuration>
-							<mainClass>de.unistuttgart.iste.sqa.pse.sheet13.presence.registration.RegistrationGUI</mainClass>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet13.presence.tournamenttracker.Main</mainClass>
+						</configuration>
+					</execution>
+					<execution>
+						<id>MemoryHamsterGameApp</id>
+						<configuration>
+							<mainClass>de.unistuttgart.iste.sqa.pse.sheet13.presence.memory.MemoryHamsterGameApp</mainClass>
 						</configuration>
 					</execution>
 				</executions>
